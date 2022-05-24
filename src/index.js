@@ -7,10 +7,9 @@ import {
 } from "react-router-dom";
 import './index.css';
 import App from './App';
-import Home from './Home';
 import Login from "./Auth/Login";
 import Registrasi from './Auth/Registrasi';
-import Dashboard from './DashboardUser/Dashboard';
+import DashboardUser from './User/DashboardUser';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,6 +19,7 @@ root.render(
       <Route path="/" element={<App />} />
       <Route path="login" element={<Login />} />
       <Route path="registrasi" element={<Registrasi />} />
+      <Route path="dashboarduser" element={<DashboardUser />} />
     </Routes>
   </BrowserRouter>
 );

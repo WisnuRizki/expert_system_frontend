@@ -19,7 +19,7 @@ export default function App() {
         <div className="w-full lg:w-1/2 h-1/2 lg:h-screen justify-center items-center sm:mt-10 lg:mt-0 lg:ml-10">
           <div className="w-full lg:w-1/2 h-1/2 lg:h-screen flex justify-center items-center">
             <div className="w-full lg:w-96 ml-2 mr-2 bg-white flex flex-col justify-center items-center rounded-md sm:mt-20 lg:mt-0">
-              <h1 className="text-4xl font-bold text-center my-2 my-4">Registrasi</h1>
+              <h1 className="text-4xl text-black font-bold text-center my-2 my-4">Registrasi</h1>
               <form className="flex flex-col align-center gap-4 w-3/4">
                 <input className="w-full pl-2 h-10 text-xl border-solid border-2 border-gray-400" type="text" placeholder="Name" />
                 <input className="w-full pl-2 h-10 text-xl border-solid border-2 border-gray-400" type="text" placeholder="Email"/>

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 
 function Registrasi(){
     return(
@@ -14,7 +15,9 @@ function Registrasi(){
                     <input className="w-full -mt-3 pl-2 h-10 text-xl border-solid border-2 border-gray-400"type="text" placeholder="Password"/>
                     <label className='text-left'>Ketik Ulang Password</label>
                     <input className="w-full -mt-3 pl-2 h-10 text-xl border-solid border-2 border-gray-400"type="text" placeholder="Ketik Ulang Password"/>
-                <button className="h-10 w-full bg-green-400 text-xl text-white font-bold">Daftar</button>
+                    <Link to="/login">
+                        <button className="h-10 w-full bg-green-400 text-xl text-white font-bold">Daftar</button>
+                    </Link>
               </form>
     
             </div>
