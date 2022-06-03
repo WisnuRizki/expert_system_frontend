@@ -10,6 +10,7 @@ import App from './App';
 import Login from "./Auth/Login";
 import Registrasi from './Auth/Registrasi';
 import DashboardUser from './User/DashboardUser';
+import DiagnosaUser from './User/DiagnosaUser';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,6 +21,7 @@ root.render(
       <Route path="login" element={<Login />} />
       <Route path="registrasi" element={<Registrasi />} />
       <Route path="dashboarduser" element={<DashboardUser />} />
+      <Route path="diagnosa" element={<DiagnosaUser />} />
     </Routes>
   </BrowserRouter>
 );
